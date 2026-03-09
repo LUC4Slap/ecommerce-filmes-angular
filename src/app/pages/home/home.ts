@@ -1,11 +1,11 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { BuscarFilmes } from '../../services/buscar-filmes';
 import { Filme } from '../../interfaces/filme.interface';
-import { RouterLink } from '@angular/router';
+import { CardFilme } from '../card-filme/card-filme';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink],
+  imports: [CardFilme],
   templateUrl: './home.html',
   styleUrl: './home.sass'
 })

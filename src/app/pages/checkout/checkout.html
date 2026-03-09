@@ -1,0 +1,81 @@
+<div class="container mt-4">
+  @if(carrinho.totalItens().length === 0) {
+    <div class="carrinho-vazio">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <h2>Seu carrinho está vazio</h2>
+      <p>Adicione filmes ao carrinho para continuar</p>
+      <a href="/" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-arrow-left"></i> Voltar para Home
+      </a>
+    </div>
+  } @else {
+    <div class="checkout-header">
+      <h1>
+        <i class="fa-solid fa-shopping-cart"></i>
+        Meu Carrinho
+      </h1>
+      <p class="subtitle">{{ carrinho.totalItens().length }} {{ carrinho.totalItens().length === 1 ? 'item' : 'itens' }} no carrinho</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="cards-grid">
+          @for(item of carrinho.totalItens(); track item.id) {
+            <div class="card-item">
+              <img [src]="item.image" class="item-image" [alt]="item.name">
+              <div class="item-info">
+                <h5 class="item-title">{{ item.name }}</h5>
+                <span class="item-category">
+                  <i class="fa-solid fa-tag"></i>
+                  {{ item.category }}
+                </span>
+                <p class="item-price">R$ {{ item.price.toFixed(2) }}</p>
+              </div>
+              <button class="btn-remove" (click)="removerItem(item)" title="Remover item">
+                <i class="fa-solid fa-trash-alt"></i>
+              </button>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="resumo-pedido">
+          <h4 class="resumo-title">
+            <i class="fa-solid fa-receipt"></i>
+            Resumo do Pedido
+          </h4>
+          
+          <div class="resumo-content">
+            <div class="resumo-item">
+              <span>Subtotal ({{ carrinho.totalItens().length }} {{ carrinho.totalItens().length === 1 ? 'item' : 'itens' }})</span>
+              <span class="resumo-valor">R$ {{ calcularTotal().toFixed(2) }}</span>
+            </div>
+            
+            <div class="resumo-item">
+              <span>Desconto</span>
+              <span class="resumo-valor text-success">R$ 0,00</span>
+            </div>
+            
+            <hr>
+            
+            <div class="resumo-total">
+              <span>Total</span>
+              <span class="total-valor">R$ {{ calcularTotal().toFixed(2) }}</span>
+            </div>
+          </div>
+
+          <button class="btn btn-success btn-lg w-100 btn-finalizar">
+            <i class="fa-solid fa-check-circle"></i>
+            Finalizar Compra
+          </button>
+
+          <a href="/" class="btn btn-outline-secondary w-100 mt-2">
+            <i class="fa-solid fa-arrow-left"></i>
+            Continuar Comprando
+          </a>
+        </div>
+      </div>
+    </div>
+  }
+</div>

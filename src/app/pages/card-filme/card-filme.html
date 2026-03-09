@@ -1,0 +1,13 @@
+<div class="card">
+  <img [src]="filme.image" class="card-img-top" [alt]="filme.name">
+  <div class="card-body">
+    <h5 class="card-title">{{ filme.name }}</h5>
+    <p class="card-text">
+      <span class="badge bg-primary">{{ filme.category }}</span>
+    </p>
+    <p class="card-text">
+      <strong>R$ {{ filme.price }}</strong>
+    </p>
+    <a [routerLink]="['/visualizar-filme', filme.id]" class="btn btn-primary">Ver Detalhes</a>
+  </div>
+</div>

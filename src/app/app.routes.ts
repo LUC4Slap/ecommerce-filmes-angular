@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { VisualizarFilme } from './pages/visualizar-filme/visualizar-filme';
 import { Home } from './pages/home/home';
 import { CadastrarFilme } from './pages/cadastrar-filme/cadastrar-filme';
+import { Checkout } from './pages/checkout/checkout';
 
 export const routes: Routes = [
   {
@@ -15,5 +16,9 @@ export const routes: Routes = [
   {
     path: 'cadastrar-filme',
     component: CadastrarFilme
+  },
+  {
+    path: 'checkout',
+    component: Checkout
   }
 ];

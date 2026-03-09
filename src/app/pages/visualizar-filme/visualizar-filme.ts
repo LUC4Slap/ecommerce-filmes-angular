@@ -1,7 +1,9 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { BuscarFilmes } from '../../services/buscar-filmes';
 import { Filme } from '../../interfaces/filme.interface';
+import { Carrinho } from '../../services/carrinho';
+import { NotificacaoService } from '../../services/notificacao';
 
 @Component({
   selector: 'app-visualizar-filme',
@@ -12,6 +14,8 @@ import { Filme } from '../../interfaces/filme.interface';
 export class VisualizarFilme implements OnInit {
   filme = signal<Filme | null>(null);
   filmeId = signal<number>(0);
+  private carrinhoService = inject(Carrinho);
+  private notificacao = inject(NotificacaoService);
 
   constructor(
     private route: ActivatedRoute,
@@ -37,6 +41,14 @@ export class VisualizarFilme implements OnInit {
         console.error('Erro ao buscar filme:', erro);
       }
     });
+  }
+
+  adicionarAoCarrinho(): void {
+    const filmeAtual = this.filme();
+    if (filmeAtual) {
+      this.carrinhoService.adicionarItem(filmeAtual);
+      this.notificacao.sucesso('Filme adicionado ao carrinho!');
+    }
   }
 
   voltar(): void {

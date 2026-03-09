@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ecommerce-simples-filmes": "node dist/ecommerce-simples-filmes/server/server.mjs",
-    "run-back": "json-server --watch db.json --port 3000"
+    "back": "json-server --watch db.json --port 3000"
   },
   "private": true,
   "packageManager": "npm@11.9.0",

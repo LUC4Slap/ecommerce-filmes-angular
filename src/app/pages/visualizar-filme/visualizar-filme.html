@@ -12,7 +12,7 @@
         <h3 class="text-success">R$ {{ filme()!.price }}</h3>
         <hr>
         <div class="d-flex gap-2">
-          <button class="btn btn-success btn-lg">
+          <button class="btn btn-success btn-lg" (click)="adicionarAoCarrinho()">
             <i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho
           </button>
           <button class="btn btn-outline-secondary btn-lg" (click)="voltar()">

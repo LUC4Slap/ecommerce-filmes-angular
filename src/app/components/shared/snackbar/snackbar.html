@@ -1,0 +1,15 @@
+<div class="snackbar-container">
+  @for (notif of notificacaoService.notificacoes(); track notif.id) {
+    <div class="snackbar" [class]="'snackbar-' + notif.tipo">
+      <div class="snackbar-content">
+        <i class="fas" [class.fa-check-circle]="notif.tipo === 'sucesso'"
+                       [class.fa-exclamation-circle]="notif.tipo === 'erro'"
+                       [class.fa-info-circle]="notif.tipo === 'info'"></i>
+        <span>{{ notif.mensagem }}</span>
+      </div>
+      <button class="snackbar-close" (click)="fechar(notif.id)">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  }
+</div>
