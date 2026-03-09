@@ -1,0 +1,32 @@
+<div class="container mt-4">
+  @if (filme()) {
+    <div class="row">
+      <div class="col-md-4">
+        <img [src]="filme()!.image" [alt]="filme()!.name" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        <h1>{{ filme()!.name }}</h1>
+        <p>
+          <span class="badge bg-primary fs-6">{{ filme()!.category }}</span>
+        </p>
+        <h3 class="text-success">R$ {{ filme()!.price }}</h3>
+        <hr>
+        <div class="d-flex gap-2">
+          <button class="btn btn-success btn-lg">
+            <i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho
+          </button>
+          <button class="btn btn-outline-secondary btn-lg" (click)="voltar()">
+            <i class="fas fa-arrow-left"></i> Voltar
+          </button>
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="text-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Carregando...</span>
+      </div>
+      <p class="mt-2">Carregando filme...</p>
+    </div>
+  }
+</div>

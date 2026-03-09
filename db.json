@@ -1,0 +1,726 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "name": "O Poderoso Chefão",
+      "category": "Drama",
+      "price": 29.99,
+      "image": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Matrix",
+      "category": "Ficção Científica",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/fNG7i7RqMErkcqhohV2a6cV1Ehy.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Vingadores: Ultimato",
+      "category": "Ação",
+      "price": 34.99,
+      "image": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Interestelar",
+      "category": "Ficção Científica",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Parasita",
+      "category": "Drama",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Coringa",
+      "category": "Drama",
+      "price": 31.99,
+      "image": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Pulp Fiction",
+      "category": "Crime",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Forrest Gump",
+      "category": "Drama",
+      "price": 21.99,
+      "image": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Inception",
+      "category": "Ficção Científica",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Senhor dos Anéis: O Retorno do Rei",
+      "category": "Aventura",
+      "price": 32.99,
+      "image": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Clube da Luta",
+      "category": "Drama",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Batman: O Cavaleiro das Trevas",
+      "category": "Ação",
+      "price": 29.99,
+      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Star Wars: O Império Contra-Ataca",
+      "category": "Ficção Científica",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Gladiador",
+      "category": "Ação",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Toy Story",
+      "category": "Animação",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Titanic",
+      "category": "Romance",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    },
+    {
+      "id": "17",
+      "name": "O Iluminado",
+      "category": "Terror",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/xazWoLealQwEgqZ89MLZklLZD3k.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Django Livre",
+      "category": "Western",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+    },
+    {
+      "id": "19",
+      "name": "De Volta para o Futuro",
+      "category": "Aventura",
+      "price": 20.99,
+      "image": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg"
+    },
+    {
+      "id": "20",
+      "name": "O Silêncio dos Inocentes",
+      "category": "Suspense",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Os Infiltrados",
+      "category": "Crime",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/iGHZas4d1KjUXGK2zvqCeupFQAi.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Avatar",
+      "category": "Ficção Científica",
+      "price": 33.99,
+      "image": "https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Jurassic Park",
+      "category": "Aventura",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Mad Max: Estrada da Fúria",
+      "category": "Ação",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Pantera Negra",
+      "category": "Ação",
+      "price": 30.99,
+      "image": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Homem-Aranha: Sem Volta para Casa",
+      "category": "Ação",
+      "price": 35.99,
+      "image": "https://image.tmdb.org/t/p/w500/fVzXp3NwovUHq0KNuXxG1GBQynd.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Oppenheimer",
+      "category": "Drama",
+      "price": 36.99,
+      "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Barbie",
+      "category": "Comédia",
+      "price": 32.99,
+      "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Tudo em Todo Lugar ao Mesmo Tempo",
+      "category": "Ficção Científica",
+      "price": 29.99,
+      "image": "https://image.tmdb.org/t/p/w500/yI7gEinyMKfuV3xFWg6FvhBcY5M.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Top Gun: Maverick",
+      "category": "Ação",
+      "price": 33.99,
+      "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+    },
+    {
+      "id": "31",
+      "name": "O Rei Leão",
+      "category": "Animação",
+      "price": 21.99,
+      "image": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+    },
+    {
+      "id": "32",
+      "name": "Shrek",
+      "category": "Animação",
+      "price": 18.99,
+      "image": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg"
+    },
+    {
+      "id": "33",
+      "name": "Procurando Nemo",
+      "category": "Animação",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+    },
+    {
+      "id": "34",
+      "name": "Frozen",
+      "category": "Animação",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/kgwjIb2JDHRhNk13lmSxiClFjVk.jpg"
+    },
+    {
+      "id": "35",
+      "name": "Divertida Mente",
+      "category": "Animação",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/lRHE0vzf3oYJrhbsHXjIkF4Tl5A.jpg"
+    },
+    {
+      "id": "36",
+      "name": "Coco",
+      "category": "Animação",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+    },
+    {
+      "id": "37",
+      "name": "Moana",
+      "category": "Animação",
+      "price": 21.99,
+      "image": "https://image.tmdb.org/t/p/w500/4JeejGugONWpJkbnvL12hVoYEDa.jpg"
+    },
+    {
+      "id": "38",
+      "name": "Velozes e Furiosos 7",
+      "category": "Ação",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/dCgm7efXDmiABSdWDHBDBx2jwmn.jpg"
+    },
+    {
+      "id": "39",
+      "name": "John Wick",
+      "category": "Ação",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg"
+    },
+    {
+      "id": "40",
+      "name": "Deadpool",
+      "category": "Ação",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/yGSxMiF0cYuAiyuve5DA6bnWBIE.jpg"
+    },
+    {
+      "id": "41",
+      "name": "Logan",
+      "category": "Ação",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg"
+    },
+    {
+      "id": "42",
+      "name": "Guardiões da Galáxia",
+      "category": "Ação",
+      "price": 29.99,
+      "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
+    },
+    {
+      "id": "43",
+      "name": "Homem de Ferro",
+      "category": "Ação",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg"
+    },
+    {
+      "id": "44",
+      "name": "Capitão América: Guerra Civil",
+      "category": "Ação",
+      "price": 30.99,
+      "image": "https://image.tmdb.org/t/p/w500/rAGiXaUfPu0sBqLOI8hzZHqq8L8.jpg"
+    },
+    {
+      "id": "45",
+      "name": "Thor: Ragnarok",
+      "category": "Ação",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
+    },
+    {
+      "id": "46",
+      "name": "Doutor Estranho",
+      "category": "Ação",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg"
+    },
+    {
+      "id": "47",
+      "name": "Homem-Formiga",
+      "category": "Ação",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg"
+    },
+    {
+      "id": "48",
+      "name": "Viúva Negra",
+      "category": "Ação",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
+    },
+    {
+      "id": "49",
+      "name": "Eternos",
+      "category": "Ação",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg"
+    },
+    {
+      "id": "50",
+      "name": "Shang-Chi",
+      "category": "Ação",
+      "price": 29.99,
+      "image": "https://image.tmdb.org/t/p/w500/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg"
+    },
+    {
+      "id": "51",
+      "name": "It: A Coisa",
+      "category": "Terror",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg"
+    },
+    {
+      "id": "52",
+      "name": "Invocação do Mal",
+      "category": "Terror",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
+    },
+    {
+      "id": "53",
+      "name": "Hereditário",
+      "category": "Terror",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/p6XFSX4qywfRxzPkJhDauwdtZpY.jpg"
+    },
+    {
+      "id": "54",
+      "name": "Corra!",
+      "category": "Terror",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/rkVDX99cWPyyrIh6yRfCJ7cJtLl.jpg"
+    },
+    {
+      "id": "55",
+      "name": "Um Lugar Silencioso",
+      "category": "Terror",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/nAU74GmpUk7t5iklEp3bufwDq4n.jpg"
+    },
+    {
+      "id": "56",
+      "name": "A Bruxa",
+      "category": "Terror",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg"
+    },
+    {
+      "id": "57",
+      "name": "Midsommar",
+      "category": "Terror",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg"
+    },
+    {
+      "id": "58",
+      "name": "Nós",
+      "category": "Terror",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/yw0130ZIUJMfSoqi85Gj7MrYI1S.jpg"
+    },
+    {
+      "id": "59",
+      "name": "Halloween",
+      "category": "Terror",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/bXa874oiFCdbNsOy4K89OYDbcAk.jpg"
+    },
+    {
+      "id": "60",
+      "name": "O Exorcista",
+      "category": "Terror",
+      "price": 21.99,
+      "image": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+    },
+    {
+      "id": "61",
+      "name": "Se Beber, Não Case",
+      "category": "Comédia",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/9Ran68OmxqQhYWn3QXjshFq8M9Z.jpg"
+    },
+    {
+      "id": "62",
+      "name": "Superbad",
+      "category": "Comédia",
+      "price": 18.99,
+      "image": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg"
+    },
+    {
+      "id": "63",
+      "name": "Ted",
+      "category": "Comédia",
+      "price": 20.99,
+      "image": "https://image.tmdb.org/t/p/w500/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg"
+    },
+    {
+      "id": "64",
+      "name": "Neighbors",
+      "category": "Comédia",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/eyjS6KPswUu7M3oHMz1LcxpTwx6.jpg"
+    },
+    {
+      "id": "65",
+      "name": "As Branquelas",
+      "category": "Comédia",
+      "price": 17.99,
+      "image": "https://image.tmdb.org/t/p/w500/aWHierSmfYGnNrkS9NvS3J91Yps.jpg"
+    },
+    {
+      "id": "66",
+      "name": "Gente Grande",
+      "category": "Comédia",
+      "price": 18.99,
+      "image": "https://image.tmdb.org/t/p/w500/9HGZpco94cYGhyEz3uG1Kl1vBOu.jpg"
+    },
+    {
+      "id": "67",
+      "name": "Esqueceram de Mim",
+      "category": "Comédia",
+      "price": 16.99,
+      "image": "https://image.tmdb.org/t/p/w500/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg"
+    },
+    {
+      "id": "68",
+      "name": "Ace Ventura",
+      "category": "Comédia",
+      "price": 15.99,
+      "image": "https://image.tmdb.org/t/p/w500/pqBXGSxZavez7W9ahFbEHUWXEYG.jpg"
+    },
+    {
+      "id": "69",
+      "name": "O Máskara",
+      "category": "Comédia",
+      "price": 16.99,
+      "image": "https://image.tmdb.org/t/p/w500/6Z0VBZ3hONjb7bMkEQPqQVh8gSS.jpg"
+    },
+    {
+      "id": "70",
+      "name": "Uma Noite no Museu",
+      "category": "Comédia",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/uY9k8t2FQkMj60obnAnsPKLxHCc.jpg"
+    },
+    {
+      "id": "71",
+      "name": "La La Land",
+      "category": "Romance",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+    },
+    {
+      "id": "72",
+      "name": "Diário de uma Paixão",
+      "category": "Romance",
+      "price": 20.99,
+      "image": "https://image.tmdb.org/t/p/w500/qom1SZSENdmHFNZBXbtJAU0WTlC.jpg"
+    },
+    {
+      "id": "73",
+      "name": "Como Eu Era Antes de Você",
+      "category": "Romance",
+      "price": 21.99,
+      "image": "https://image.tmdb.org/t/p/w500/oJcCkkz1VGfQ0BNXJFi8kXxOqPD.jpg"
+    },
+    {
+      "id": "74",
+      "name": "A Culpa é das Estrelas",
+      "category": "Romance",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/ep7dF4QR4Mm39LI958V0XbwE0hK.jpg"
+    },
+    {
+      "id": "75",
+      "name": "10 Coisas que Eu Odeio em Você",
+      "category": "Romance",
+      "price": 18.99,
+      "image": "https://image.tmdb.org/t/p/w500/d7IFLYoxe1oYLbLf6w5nOu8njON.jpg"
+    },
+    {
+      "id": "76",
+      "name": "Simplesmente Acontece",
+      "category": "Romance",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/1Q7FpMQgdMpm3FDfPMRKDZJHwmY.jpg"
+    },
+    {
+      "id": "77",
+      "name": "Para Todos os Garotos",
+      "category": "Romance",
+      "price": 20.99,
+      "image": "https://image.tmdb.org/t/p/w500/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
+    },
+    {
+      "id": "78",
+      "name": "Querido John",
+      "category": "Romance",
+      "price": 19.99,
+      "image": "https://image.tmdb.org/t/p/w500/9F3HlpEFZL1Y8XDoblYTLV2fCdT.jpg"
+    },
+    {
+      "id": "79",
+      "name": "Uma Linda Mulher",
+      "category": "Romance",
+      "price": 17.99,
+      "image": "https://image.tmdb.org/t/p/w500/fek6C62tiRzJa8m8pP3Zn4MLg8n.jpg"
+    },
+    {
+      "id": "80",
+      "name": "Ghost: Do Outro Lado da Vida",
+      "category": "Romance",
+      "price": 18.99,
+      "image": "https://image.tmdb.org/t/p/w500/w9RaPHov8oM5cnzeE27isnFMsvS.jpg"
+    },
+    {
+      "id": "81",
+      "name": "Dunkirk",
+      "category": "Guerra",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/cUqEgoP6kj8ykfNjJx3Tl5zHCcN.jpg"
+    },
+    {
+      "id": "82",
+      "name": "1917",
+      "category": "Guerra",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/AuGiPiGMYMkSosOJ3BQjDEAiwtO.jpg"
+    },
+    {
+      "id": "83",
+      "name": "O Resgate do Soldado Ryan",
+      "category": "Guerra",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/uqx37vgRo2y6JQHCQ6qCSseJ9FI.jpg"
+    },
+    {
+      "id": "84",
+      "name": "Coração Valente",
+      "category": "Guerra",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/or1gBugydmjToAEq7OZY0owwFk.jpg"
+    },
+    {
+      "id": "85",
+      "name": "Hacksaw Ridge",
+      "category": "Guerra",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/fTuxNlgEm04PPFkr1xfK94Jjbj0.jpg"
+    },
+    {
+      "id": "86",
+      "name": "A Lista de Schindler",
+      "category": "Drama",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+      "id": "87",
+      "name": "12 Anos de Escravidão",
+      "category": "Drama",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg"
+    },
+    {
+      "id": "88",
+      "name": "Green Book",
+      "category": "Drama",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg"
+    },
+    {
+      "id": "89",
+      "name": "Moonlight",
+      "category": "Drama",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/qgsjO6YYV1i8SUvXkQrWIYc7o4a.jpg"
+    },
+    {
+      "id": "90",
+      "name": "A Forma da Água",
+      "category": "Drama",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/3MZOj9u0eNjLqMmKa17jF8qfpVi.jpg"
+    },
+    {
+      "id": "91",
+      "name": "Intocáveis",
+      "category": "Drama",
+      "price": 22.99,
+      "image": "https://image.tmdb.org/t/p/w500/4mFsNQwbD0F237Tx7gAPotd0nbJ.jpg"
+    },
+    {
+      "id": "92",
+      "name": "A Teoria de Tudo",
+      "category": "Drama",
+      "price": 23.99,
+      "image": "https://image.tmdb.org/t/p/w500/nfG1ZDDq2xgz9HGXU2X3OmM5qkH.jpg"
+    },
+    {
+      "id": "93",
+      "name": "O Jogo da Imitação",
+      "category": "Drama",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/noUp0XOqIcmgefRnRZa1nhtRvWO.jpg"
+    },
+    {
+      "id": "94",
+      "name": "Bohemian Rhapsody",
+      "category": "Drama",
+      "price": 27.99,
+      "image": "https://image.tmdb.org/t/p/w500/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg"
+    },
+    {
+      "id": "95",
+      "name": "Rocketman",
+      "category": "Drama",
+      "price": 25.99,
+      "image": "https://image.tmdb.org/t/p/w500/f4FF18ia7yTvHf2izNrHqBmgH8U.jpg"
+    },
+    {
+      "id": "96",
+      "name": "Nasce uma Estrela",
+      "category": "Drama",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
+    },
+    {
+      "id": "97",
+      "name": "Birdman",
+      "category": "Drama",
+      "price": 24.99,
+      "image": "https://image.tmdb.org/t/p/w500/rSZs93P0LLxqlVEbI001UKoeCQC.jpg"
+    },
+    {
+      "id": "98",
+      "name": "A Chegada",
+      "category": "Ficção Científica",
+      "price": 26.99,
+      "image": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg"
+    },
+    {
+      "id": "99",
+      "name": "Blade Runner 2049",
+      "category": "Ficção Científica",
+      "price": 28.99,
+      "image": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+    },
+    {
+      "id": "100",
+      "name": "Duna",
+      "category": "Ficção Científica",
+      "price": 34.99,
+      "image": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+      "id": "1868",
+      "name": "Teste",
+      "category": "Teste",
+      "price": 10,
+      "image": "https://exemplo.com/teste.jpg"
+    },
+    {
+      "id": "9ab8",
+      "name": "Teste 1",
+      "category": "Teste",
+      "price": 10,
+      "image": "https://exemplo.com/teste.jpg"
+    },
+    {
+      "id": "1773021969930",
+      "name": "Star Wars: Episódio I – A Ameaça Fantasma",
+      "category": "Ficção",
+      "price": 69,
+      "image": "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/1225/3TeGmKJfkik1D1rIoqGb1aR4k9c.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,84 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+          <h3 class="mb-0">
+            <i class="fas fa-film me-2"></i>Cadastrar Novo Filme
+          </h3>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="cadastrarFilme()" #filmeForm="ngForm">
+            <div class="mb-3">
+              <label for="titulo" class="form-label">Título do Filme</label>
+              <input 
+                id="titulo" 
+                type="text" 
+                class="form-control" 
+                [value]="tituloDoFilme()"
+                (input)="tituloDoFilme.set($any($event.target).value)" 
+                name="titulo" 
+                placeholder="Ex: Matrix"
+                required>
+            </div>
+
+            <div class="mb-3">
+              <label for="categoria" class="form-label">Categoria</label>
+              <input 
+                id="categoria" 
+                type="text" 
+                class="form-control" 
+                [value]="categoria()"
+                (input)="categoria.set($any($event.target).value)" 
+                name="categoria" 
+                placeholder="Ex: Ficção Científica"
+                required>
+            </div>
+
+            <div class="mb-3">
+              <label for="preco" class="form-label">Preço (R$)</label>
+              <div class="input-group">
+                <span class="input-group-text">R$</span>
+                <input 
+                  id="preco" 
+                  type="number" 
+                  class="form-control" 
+                  [value]="price()"
+                  (input)="price.set($any($event.target).value)" 
+                  name="preco" 
+                  step="0.01"
+                  placeholder="0.00"
+                  required>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="imagem" class="form-label">URL da Imagem</label>
+              <input 
+                id="imagem" 
+                type="url" 
+                class="form-control" 
+                [value]="imagemUrl()"
+                (input)="imagemUrl.set($any($event.target).value)" 
+                name="imagem" 
+                placeholder="https://exemplo.com/imagem.jpg"
+                required>
+              <div class="form-text">
+                <i class="fas fa-info-circle"></i> Cole a URL da imagem do poster do filme
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary btn-lg">
+                <i class="fas fa-save me-2"></i>Cadastrar Filme
+              </button>
+              <button type="button" class="btn btn-outline-secondary" routerLink="/">
+                <i class="fas fa-times me-2"></i>Cancelar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
