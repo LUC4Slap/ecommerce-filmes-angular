@@ -21,4 +21,9 @@ export class Checkout {
     this.carrinho.removerItem(filme);
     this.notificacao.info('Filme removido do carrinho.');
   }
+
+  limparCarrinho(): void {
+    this.carrinho.limparCarrinho();
+    this.notificacao.info('Carrinho limpo.');
+  }
 }
